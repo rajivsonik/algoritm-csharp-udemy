@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1972
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AlgorithmDataStructLib", "Algorith-DataStruct-Lib\AlgorithmDataStructLib.csproj", "{2597D516-A631-4BAB-BE49-0041C7BF90F3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AlgorithmCSharpCourse", "AlgorithmCSharpCourse\AlgorithmCSharpCourse.csproj", "{A9E623A4-F82C-4E13-98D4-355075152463}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{03168236-299B-4084-B9AA-EEFABAE712C6}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2597D516-A631-4BAB-BE49-0041C7BF90F3}.Debug|Any CPU.ActiveCfg = Release|Any CPU
+		{2597D516-A631-4BAB-BE49-0041C7BF90F3}.Debug|Any CPU.Build.0 = Release|Any CPU
+		{2597D516-A631-4BAB-BE49-0041C7BF90F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2597D516-A631-4BAB-BE49-0041C7BF90F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A9E623A4-F82C-4E13-98D4-355075152463}.Debug|Any CPU.ActiveCfg = Release|Any CPU
+		{A9E623A4-F82C-4E13-98D4-355075152463}.Debug|Any CPU.Build.0 = Release|Any CPU
+		{A9E623A4-F82C-4E13-98D4-355075152463}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9E623A4-F82C-4E13-98D4-355075152463}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E3F8F492-2280-476B-AE5F-74D6953FE06C}
+	EndGlobalSection
+EndGlobal

@@ -9,6 +9,16 @@ namespace AlgorithmCSharpCourse
     {
         static void Main(string[] args)
         {
+             ArrayFunctions.JaggedArray();
+            // ArrayFunctions.MultiDimArray();
+            // ArrayFunctions.ArrayWithStartIndex1();
+            // ArrayFunctions.ArrayDemo();
+            // CheckTriplets();
+        }
+
+        private static void CheckTriplets()
+        {
+
             // check 1k records
             var ints = ReadFile.ReadInts(@"data\1Kints.txt").ToArray();
             var watch = new Stopwatch();

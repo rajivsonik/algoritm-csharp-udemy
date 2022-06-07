@@ -6,6 +6,37 @@ namespace AlgorithmCSharpCourse
 {
     public class ArrayFunctions
     {
+
+        // transpose matrix
+        public static int[,] TransposeMatrix(int[,] originalMatrix)
+        {
+            int rows = originalMatrix.GetLength(0);
+            int columns = originalMatrix.GetLength(1);
+
+            int[,] transposedMatrix = new int[columns, rows];
+
+            for (int i = 0; i < rows; i++)
+            {
+                for (int j = 0; j < columns; j++)
+                {
+                    transposedMatrix[j, i] = originalMatrix[i, j];
+                }
+            }
+
+            return transposedMatrix;
+        }
+        // reverse array in place
+        public static void ReverseInPlace(int[] inputArray)
+        {
+            int inputLength = inputArray.Length-1;
+
+            for (int i = 0; i < inputArray.Length/2; i++)
+            {
+                var placeHolder = inputArray[i];
+                inputArray[i] = inputArray[inputLength -i];
+                inputArray[inputLength-i] = placeHolder;
+            }
+        }
         public static void ArrayDemo()
         {
             int[] array1 = new int[5] {1,3,-2,5,1};

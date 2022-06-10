@@ -12,6 +12,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		.gitignore = .gitignore
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlgorithmDataStructLib.Tests", "AlgorithDataStructLib.Tests\AlgorithmDataStructLib.Tests.csproj", "{069BA513-470F-4915-B46F-3A36825319E7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -26,6 +28,10 @@ Global
 		{A9E623A4-F82C-4E13-98D4-355075152463}.Debug|Any CPU.Build.0 = Release|Any CPU
 		{A9E623A4-F82C-4E13-98D4-355075152463}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A9E623A4-F82C-4E13-98D4-355075152463}.Release|Any CPU.Build.0 = Release|Any CPU
+		{069BA513-470F-4915-B46F-3A36825319E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{069BA513-470F-4915-B46F-3A36825319E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{069BA513-470F-4915-B46F-3A36825319E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{069BA513-470F-4915-B46F-3A36825319E7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

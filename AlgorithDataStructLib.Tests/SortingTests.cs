@@ -49,5 +49,15 @@ namespace AlgorithmDataStructLib.Tests
         {
             RunTestsForSortAlgorithm(Sorting.BubbleSort);
         }
+        [Test]
+        public void SelectionSortValidInputSortedInput()
+        {
+            RunTestsForSortAlgorithm(Sorting.SelectionSort);
+        }
+        [Test]
+        public void InsertionSortValidInputSortedInput()
+        {
+            RunTestsForSortAlgorithm(Sorting.InsertionSort);
+        }
     }
 }
